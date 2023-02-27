@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Fierro-Arcos"
+  given-names: "Denisse"
+  orcid: "https://orcid.org/0000-0002-5039-6272"
+
+title: "Assessing the suitability of ACCESS-OM2-01 outputs for ecological applications"
+version: 1.0.0
+doi: TBA
+date-released: 2023-03-02
+url: "https://github.com/lidefi87/TBA"
