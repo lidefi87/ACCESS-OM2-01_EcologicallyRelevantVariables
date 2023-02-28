@@ -76,6 +76,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -167,3 +168,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+#Ignoring observations folder
+Observations/
