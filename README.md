@@ -15,7 +15,7 @@ We used two datasets to assess the accuracy of ACCESS-OM2-01 in replicating past
 - Daily sea ice concentrations from the NASA Goddard-merged Near Real Time NOAA/NSIDC Climate Data Record of Passive Microwave Sea Ice Concentration (version 3)
 - Global climatological monthly mixed layer depth means from Sallee and collaborators
   
-The sea ice concentration data are available in GADI, while the mixed layer depth data is available in [Zenodo](https://zenodo.org/record/5776180).  
+The sea ice concentration data are available in GADI. The mixed layer depth data is available in [Zenodo](https://zenodo.org/record/5776180) and it was stored in a folder called `Observations` in the root directory of this repository.  
 
 ## MEASO regions
 The MEASO regions boundaries were obtained from the [`measoshape`](https://australianantarcticdivision.github.io/measoshapes/) package for `R`. A copy of these boundaries is included in this repository for anyone who is not familiar with `R`.
