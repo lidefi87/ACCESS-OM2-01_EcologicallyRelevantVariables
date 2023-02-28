@@ -16,10 +16,10 @@ We used two datasets to assess the accuracy of ACCESS-OM2-01 in replicating past
 - Global climatological monthly mixed layer depth means from Sallee and collaborators
   
 The sea ice concentration data are available in GADI. The mixed layer depth data is available in [Zenodo](https://zenodo.org/record/5776180) and it was stored in a folder called `Observations` in the root directory of this repository.  
-
+  
 ## MEASO regions
-The MEASO regions boundaries were obtained from the [`measoshape`](https://australianantarcticdivision.github.io/measoshapes/) package for `R`. A copy of these boundaries is included in this repository for anyone who is not familiar with `R`.
-
+The MEASO regions boundaries were obtained from the [`measoshape`](https://australianantarcticdivision.github.io/measoshapes/) package for `R`. A copy of these boundaries is included in this repository for anyone who is not familiar with `R`. Only one mask used in these notebooks has been included in this repository under the `SupportingData/Masks` folder due to file size restrictions in GitHub. Three masks are used in these notebooks, one matching the ACCESS-OM2-01 grid, one matching the sea ice concentration data from observations, and another one matching the mixed layer depth observations. All masks can be reproduced using the [`0_CreatingMeasoMask.ipynb`](https://github.com/lidefi87/ACCESS-OM2-01_EcologicallyRelevantVariables/blob/main/Scripts/0_CreatingMeasoMask.ipynb) script.  
+  
 ## Requirements to run these notebooks
 Given that the ACCESS-OM2-01 outputs are only available through GADI, the notebooks will only run in there. Ensure you have access to a project in GADI that has computational allocation to be able to run them without any issues. All notebooks in this repository have been developed using the `Analysis3-22.10` conda environment available in GADI.
 
