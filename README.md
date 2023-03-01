@@ -26,4 +26,4 @@ The MEASO regions boundaries were obtained from the [`measoshape`](https://austr
 Given that the ACCESS-OM2-01 outputs are only available through GADI, the notebooks will only run in there. Ensure you have access to a project in GADI that has computational allocation to be able to run them without any issues. All notebooks in this repository have been developed using the `Analysis3-22.10` conda environment available in GADI.
 
 ## Citation
-This repository can be cited as: Fierro-Arcos, D. (2023). Assessing the suitability of ACCESS-OM2-01 outputs for ecological applications (Version 1.0.0) [Computer software]. https://doi.org/TBA.
+This repository can be cited as: Fierro-Arcos, D. (2023). Assessing the suitability of ACCESS-OM2-01 outputs for ecological applications (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7689972.
