@@ -12,7 +12,7 @@ To access ACCESS-OM2-01 outputs you will need to [create an NCI account](https:/
 
 ## Observational data
 We used two datasets to assess the accuracy of ACCESS-OM2-01 in replicating past environmental conditions:  
-- Daily sea ice concentrations from the NASA Goddard-merged Near Real Time NOAA/NSIDC Climate Data Record of Passive Microwave Sea Ice Concentration (version 3)
+- Daily sea ice concentrations from the [NASA Goddard-merged Near Real Time NOAA/NSIDC Climate Data Record of Passive Microwave Sea Ice Concentration](https://climatedataguide.ucar.edu/climate-data/sea-ice-concentration-data-nasa-goddard-and-nsidc-based-nasa-team-algorithm) (version 3)
 - Global climatological monthly mixed layer depth means from Sallee and collaborators
   
 The sea ice concentration data are available in GADI. The mixed layer depth data is available in [Zenodo](https://zenodo.org/record/5776180) and it was stored in a folder called `Observations` in the root directory of this repository.  
