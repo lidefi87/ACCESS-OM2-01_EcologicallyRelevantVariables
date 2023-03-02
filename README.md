@@ -8,22 +8,22 @@ In this study we examined the suitability of using outputs from the second run o
 The workflow presented in these notebooks can be adapted to evaluate different physical variables of ecological relevance and to outputs from different ocean models from an ecological perspective, as well as using different regional boundaries to examine change.  
 
 ## ACCESS-OM2-01 model outputs
-ACCESS-OM2-01 is managed by the [Consortium for Ocean-Sea Ice Modelling in Australia (COSIMA)](https://cosima.org.au/) and they have made their outputs available through the GADI supercomputer, which is managed by the [National Computational Infrastructure (NCI)](https://nci.org.au/). The COSIMA community has developed the [COSIMA Cookbook](https://github.com/COSIMA/cosima-cookbook/wiki) to allow users to search outputs with ease.  
+ACCESS-OM2-01 is managed by the [Consortium for Ocean-Sea Ice Modelling in Australia (COSIMA)](https://cosima.org.au/) and they have made their outputs available through the Gadi supercomputer, which is managed by the [National Computational Infrastructure (NCI)](https://nci.org.au/). The COSIMA community has developed the [COSIMA Cookbook](https://github.com/COSIMA/cosima-cookbook/wiki) to allow users to search outputs with ease.  
   
-To access ACCESS-OM2-01 outputs you will need to [create an NCI account](https://opus.nci.org.au/display/Help/How+to+create+an+NCI+user+account) with access to projects `ik11`, `cj50`, `jk72`, and `hh5`. These projects either host the data or give you access to the COSIMA cookbook, which we use here to query ACCESS databases.  
+To access ACCESS-OM2-01 outputs you will need to [create an NCI account](https://opus.nci.org.au/display/Help/How+to+create+an+NCI+user+account) with access to projects `ik11`, `cj50`, `jk72`, and `hh5`. These projects either host the data or give you access to the COSIMA cookbook, which we use here to query ACCESS databases.  Non-NCI users can download the output data via the [NCI Data Catalogue](https://dx.doi.org/10.25914/608097cb3433f).
 
 ## Observational data
 We used two datasets to assess the accuracy of ACCESS-OM2-01 in replicating past environmental conditions:  
 - Daily sea ice concentrations from the [NASA Goddard-merged Near Real Time NOAA/NSIDC Climate Data Record of Passive Microwave Sea Ice Concentration](https://climatedataguide.ucar.edu/climate-data/sea-ice-concentration-data-nasa-goddard-and-nsidc-based-nasa-team-algorithm) (version 3)
-- Global climatological monthly mixed layer depth means from Sallee and collaborators
+- Global climatological monthly mixed layer depth means from [Sallee and collaborators](https://doi.org/10.5281/zenodo.4073174)
   
-The sea ice concentration data are available in GADI. The mixed layer depth data is available in [Zenodo](https://zenodo.org/record/5776180) and it was stored in a folder called `Observations` in the root directory of this repository.  
+The sea ice concentration data are available in Gadi. The mixed layer depth data is available in [Zenodo](https://zenodo.org/record/5776180) and it was stored in a folder called `Observations` in the root directory of this repository.  
   
 ## MEASO regions
 The MEASO regions boundaries were obtained from the [`measoshape`](https://australianantarcticdivision.github.io/measoshapes/) package for `R`. A copy of these boundaries is included in this repository for anyone who is not familiar with `R`. Only one mask used in these notebooks has been included in this repository under the `SupportingData/Masks` folder due to file size restrictions in GitHub. Three masks are used in these notebooks, one matching the ACCESS-OM2-01 grid, one matching the sea ice concentration data from observations, and another one matching the mixed layer depth observations. All masks can be reproduced using the [`0_CreatingMeasoMask.ipynb`](https://github.com/lidefi87/ACCESS-OM2-01_EcologicallyRelevantVariables/blob/main/Scripts/0_CreatingMeasoMask.ipynb) script.  
   
 ## Requirements to run these notebooks
-Given that the ACCESS-OM2-01 outputs are only available through GADI, the notebooks will only run in there. Ensure you have access to a project in GADI that has computational allocation to be able to run them without any issues. All notebooks in this repository have been developed using the `Analysis3-22.10` conda environment available in GADI.
+Given that the ACCESS-OM2-01 outputs are only available through Gadi, the notebooks will only run in there. Ensure you have access to a project in Gadi that has computational allocation to be able to run them without any issues. All notebooks in this repository have been developed using the [`Analysis3-22.10`](https://github.com/coecms/conda-envs/releases/tag/analysis3-22.10) conda environment available in Gadi.
 
 ## Citation
 This repository can be cited as: Fierro-Arcos, D. (2023). Assessing the suitability of ACCESS-OM2-01 outputs for ecological applications (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7689972.
