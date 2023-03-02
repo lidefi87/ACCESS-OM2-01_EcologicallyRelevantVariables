@@ -67,8 +67,6 @@ The `getACCESSdata` will achieve the following:
         vararray = vararray.rename(({'ni':'xt_ocean', 'nj':'yt_ocean'}))
         #Drop coordinates that are no longer needed
         vararray = vararray.drop(('TLON', 'TLAT', 'ULON', 'ULAT'))
-        #Drop attribute that is not needed
-        del vararray.attrs['time_bounds']
     #Subsetting data to area of interest
     vararray = vararray.sel(yt_ocean = slice(minlat, maxlat))
     return vararray
