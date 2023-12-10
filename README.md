@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/606954488.svg)](https://zenodo.org/badge/latestdoi/606954488)  
-[![FAIR checklist badge](https://fairsoftwarechecklist.net/badge.svg)](https://fairsoftwarechecklist.net/v0.2?f=21&a=32102&i=31101&r=003)  
+[![FAIR checklist badge](https://fairsoftwarechecklist.net/badge.svg)](https://fairsoftwarechecklist.net/v0.2?f=21&a=32102&i=31101&r=113)
 
 # Analysis of ecologically relevant sea ice and ocean variables for the Southern Ocean using a high-resolution model to inform ecosystem studies
 This repository contains all material necessary to reproduce the figures and summary statistics presented in the publication *Analysis of ecologically relevant sea ice and ocean variables for the Southern Ocean using a high-resolution model to inform ecosystem studies* by [Denisse Fierro-Arcos](https://github.com/lidefi87), [Stuart Corney](https://www.utas.edu.au/profiles/staff/imas/stuart-corney), [Amelie Meyer](https://www.utas.edu.au/profiles/staff/imas/amelie-meyer), [Hakase Hayashida](https://github.com/hakaseh), [Andrew E. Kiss](https://github.com/aekiss) and [Petra Heil](https://www.antarctica.gov.au/science/meet-our-scientists/dr-petra-heil/). This manuscript has been published in *Progress in Oceanography*: https://doi.org/10.1016/j.pocean.2023.103049.  
