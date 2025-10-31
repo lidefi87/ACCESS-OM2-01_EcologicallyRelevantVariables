@@ -8,6 +8,14 @@ In this study we examined the suitability of using outputs from the second run o
   
 The workflow presented in these notebooks can be adapted to evaluate different physical variables of ecological relevance and to outputs from different ocean models from an ecological perspective, as well as using different regional boundaries to examine change.  
 
+## How to cite
+You can access and use the code contained in this repository as described in the licence. If using this code as a basis for your work, remember you must cite its use using the following citation:  
+- Fierro-Arcos, D. (2023). Assessing the suitability of ACCESS-OM2-01 outputs for ecological applications (Version 1.0.0) [Computer software]. [https://doi.org/10.5281/zenodo.7700075](https://doi.org/10.5281/zenodo.7700075)  
+  
+When using the code in a publication, please also include the following citation in addition to the citation above:  
+- Fierro-Arcos, D., Corney, S., Meyer, A., Hayashida, H., Kiss, A. E., & Heil, P. (2023). Analysis of ecologically relevant sea ice and ocean variables for the Southern Ocean using a high-resolution model to inform ecosystem studies. Progress in Oceanography, 215. [https://doi.org/10.1016/j.pocean.2023.103049](https://doi.org/10.1016/j.pocean.2023.103049)
+
+
 ## ACCESS-OM2-01 model outputs
 ACCESS-OM2-01 is managed by the [Consortium for Ocean-Sea Ice Modelling in Australia (COSIMA)](https://cosima.org.au/) and they have made their outputs available through the Gadi supercomputer, which is managed by the [National Computational Infrastructure (NCI)](https://nci.org.au/). The COSIMA community has developed the [COSIMA Cookbook](https://github.com/COSIMA/cosima-cookbook/wiki) to allow users to search outputs with ease.  
   
@@ -28,3 +36,4 @@ Given that the ACCESS-OM2-01 outputs are only available through Gadi, the notebo
 
 ## Citation
 This repository can be cited as: Fierro-Arcos, D. (2023). Assessing the suitability of ACCESS-OM2-01 outputs for ecological applications (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.7700075.
+
